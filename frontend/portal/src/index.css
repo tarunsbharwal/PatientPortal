@@ -1,0 +1,75 @@
+body {
+  font-family: Arial, sans-serif; 
+  margin: 50px;
+  background-color: white; 
+}
+
+.app-container {
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto; 
+  border: 1px solid black; 
+  padding: 20px;
+}
+
+.header {
+  text-align: center;
+  border-bottom: 1px solid black;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+}
+
+.upload-card {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px dashed #333;
+}
+
+.input-group {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse; 
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid black; 
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #eee; /* Light grey header */
+}
+
+/* Buttons - Flat and simple */
+button {
+  padding: 5px 10px;
+  cursor: pointer;
+  border: 1px solid #000;
+  font-size: 14px;
+}
+
+.btn-upload {
+  background-color: #ddd; /* Grey default button */
+}
+
+.btn-download {
+  background-color: white; 
+  color: blue;
+  border: 1px solid blue;
+}
+
+.btn-delete {
+  background-color: white;
+  color: red;
+  border: 1px solid red;
+}
+
+.success-msg { color: green; margin-top: 10px; }
+.error-msg { color: red; margin-top: 10px; }
+.empty-state { text-align: center; color: #555; padding: 20px; }
